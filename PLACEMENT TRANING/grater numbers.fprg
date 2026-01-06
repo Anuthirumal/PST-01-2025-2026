@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="grater numbers"/>
+        <attribute name="authors" value="Shanthi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 10:29:11 AM"/>
+        <attribute name="created" value="U2hhbnRoaTtMQVBUT1AtS0EzQjlINUQ7MjAyNi0wMS0wNjsxMDoxNzozNSBBTTsyOTk4"/>
+        <attribute name="edited" value="U2hhbnRoaTtMQVBUT1AtS0EzQjlINUQ7MjAyNi0wMS0wNjsxMDoyOToxMSBBTTsxOzMxMDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="String" array="False" size=""/>
+            <input variable="a"/>
+            <declare name="b" type="String" array="False" size=""/>
+            <input variable="b"/>
+            <if expression="a&gt;b">
+                <then>
+                    <output expression="&quot;The first number is grater &quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;The second number is grater &quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
